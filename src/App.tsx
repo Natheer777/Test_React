@@ -41,7 +41,7 @@ function App() {
     <Provider store={store}>
       <BrowserRouter>
         <Routes>
-          <Route path="/Test_React/" element={<DashBoard />} />
+          <Route path="/Test_React" element={<DashBoard />} />
           <Route path="/Test_React/tasks" element={<DashBoard />} />
           <Route path="/Test_React/products" element={<DashBoard />} />
           <Route path="/Test_React/users" element={<DashBoard />} />
