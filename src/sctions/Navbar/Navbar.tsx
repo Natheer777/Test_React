@@ -5,7 +5,7 @@ import { ThemeToggle } from '../../components/ThemeToggle/ThemeToggle';
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <NavLink className="navbar-brand ms-4" to="/">Task Manager</NavLink>
+      <NavLink className="navbar-brand ms-4" to="/Test_React">Task Manager</NavLink>
       <button 
         className="navbar-toggler" 
         type="button" 
@@ -20,16 +20,16 @@ export default function Navbar() {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <NavLink className="nav-link" to="/products">Products</NavLink>
+            <NavLink className="nav-link" to="/Test_React/products">Products</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="/tasks" >Tasks</NavLink>
+            <NavLink className="nav-link" to="/Test_React/tasks" >Tasks</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="/users">Users</NavLink>
+            <NavLink className="nav-link" to="/Test_React/users">Users</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="/notes">Notes</NavLink>
+            <NavLink className="nav-link" to="/Test_React/notes">Notes</NavLink>
           </li>
         </ul>
         <div className="navbar-theme-toggle">

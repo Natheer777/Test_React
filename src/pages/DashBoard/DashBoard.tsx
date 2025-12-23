@@ -6,13 +6,13 @@ export default function DashBoard() {
 
   const getCurrentComponent = () => {
     switch (location.pathname) {
-      case '/products':
+      case '/Test_React/products':
         return <Products />;
-      case '/users':
+      case '/Test_React/users':
         return <Users />;
-      case '/notes':
+      case '/Test_React/notes':
         return <Notes />;
-      case '/tasks':
+      case '/Test_React/tasks':
       default:
         return <Tasks />;
     }
