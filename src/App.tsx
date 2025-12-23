@@ -41,11 +41,11 @@ function App() {
     <Provider store={store}>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<DashBoard />} />
-          <Route path="/tasks" element={<DashBoard />} />
-          <Route path="/products" element={<DashBoard />} />
-          <Route path="/users" element={<DashBoard />} />
-          <Route path="/notes" element={<DashBoard />} />
+          <Route path="/Test_React/" element={<DashBoard />} />
+          <Route path="/Test_React/tasks" element={<DashBoard />} />
+          <Route path="/Test_React/products" element={<DashBoard />} />
+          <Route path="/Test_React/users" element={<DashBoard />} />
+          <Route path="/Test_React/notes" element={<DashBoard />} />
         </Routes>
         <ToastContainer
           position="top-right"
