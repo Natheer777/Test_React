@@ -1,5 +1,5 @@
 import { useLocation } from 'react-router-dom';
-import { Navbar, Tasks, Products, Users, Notes } from '../../sctions'
+import { Navbar, Tasks, Products, Users, Notes, Footer } from '../../sctions'
 
 export default function DashBoard() {
   const location = useLocation();
@@ -22,6 +22,7 @@ export default function DashBoard() {
     <>
       <Navbar />
       {getCurrentComponent()}
+      <Footer />
     </>
   )
 }
